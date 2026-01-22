@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>REMmask - EOG REM Detection (2025)</title>
+    <meta name="description" content="REMmask - EOG REM Detection (2025)" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/jpeg/profile.jpeg"
+              alt="Jessica Eng Profile Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Jessica Eng</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">REMmask - EOG REM Detection (2025)</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+           At-home sleep monitoring system was 
+           developed using electrooculography (EOG) 
+           to quantify REM sleep while prioritizing 
+           comfort and usability.
+
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Traditional sleep clinics can be difficult to access 
+                for individuals and often fail to capture real-world sleep 
+                behavior. While at-home solutions exist to address these 
+                limitations, most rely on distal recordings and indirect 
+                calculations to estimate polysomnography (PSG) data, which can 
+                reduce accuracy. This project focused on reliably measuring 
+                Rapid Eye Movement (REM) sleep, a critical biomarker 
+                associated with memory, emotional regulation, and psychiatric 
+                disorders.
+              </p>
+              <p class="project-details__desc-para">
+                Our device successfully detected REM sleep time, latency, 
+                and patterns, with results consistent with a commercial 
+                smartwatch when using a 30-second REM epoch threshold. 
+                Future improvements include optimizing accelerometer data 
+                collection, integrating PPG and EEG, and adding Bluetooth 
+                data collection. Our project was selected for presentation 
+                at the R!OT Innovation Lab Student Showcase at NC State, 
+                where it was presented to a multidisciplinary audience of 
+                engineers, business faculty, and industry professionals.
+              </p>
+            </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">My Role</h3>
+              <ul class="bulleted project-details__desc-para">
+                <li>Acted as the primary point of communication for the team, coordinating task assignments and overseeing final testing and deliverables</li>
+                <li>Led the physical design of the wearable sleep cap:</li>
+                <ul class="indent"><li>Determined component placement and electrode positioning</li>
+                <li>Identified required hardware components</li>
+                <li>Created initial design sketches and layout concepts</li></ul>
+                <li>Designed and prototyped the circuit schematic, integrating Arduino MKR Zero, EXG Pill, and LIS3DH accelerometer</li>
+                <li>Developed the embedded software in Arduino (C++):
+                <ul class="indent"><li>Implemented data acquisition from EOG electrodes and accelerometer</li>
+                <li>Saved data to an SD card for MATLAB-based post-processing and analysis</li></ul>
+              </ul>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Arduino MKR Zero (C/C++)</div>
+                <div class="skills__skill">MATLAB</div>
+                <div class="skills__skill">EXG Pill</div>
+                <div class="skills__skill">LIS3DH Accelerometer</div>
+                <div class="skills__skill">Onshape</div>
+                <div class="skills__skill">Google Drive</div>
+              </div>
+            </div>
+            <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/png/REMposter.png"
+              alt="Project Poster"
+              class="project-details__showcase-img"
+            />
+            <img
+              src="./assets/png/REMcircuit.png"
+              alt="Project Circuit"
+              class="project-details__showcase-img"
+            />
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Socials</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Jessica Eng</h4>
+            <p class="main-footer__short-desc">
+              Biomedical Engineering Student | Aspiring Medical Device Engineer
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Template made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
